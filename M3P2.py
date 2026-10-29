@@ -11,3 +11,5 @@ final_exam_score = int(input())
 
 total_exam_points = (midterm_score * .40) + (final_exam_score * .60) 
 
+print ("Student:", last_name)
+print ("Your total exam points are:",total_exam_points)
