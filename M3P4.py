@@ -7,15 +7,15 @@ model = str(input())
 print ("Please enter in MSRP")
 msrp = float(input())
 
-print ("Please enter in discount percent")
+print ("Please enter in discount percent as a decimal")
 discount_percent = float(input())
 
-amount_off = msrp * discount_percent 
-discounted_price = msrp - amount_off
+amount_off = (msrp * discount_percent) 
+discounted_price = (msrp - amount_off)
 
 print ("Make: ", make)
 print ("Model: ", model)
-print (f"MSRP: , {msrp:.2f}")
-print (f"Discount Percent: , {discount_percent:.0f}")
-print (f"Amount Off: , {amount_off:.2f}")
-print (f"Discount Price: , {discount_price:.2f}")
+print (f"MSRP: ${msrp:.2f}")
+print (f"Discount Percent: {(discount_percent*100):.2f}%")
+print (f"Amount Off: ${amount_off:.2f}")
+print (f"Discount Price: ${discounted_price:.2f}")
