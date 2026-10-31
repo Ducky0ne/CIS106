@@ -1,18 +1,13 @@
-total_meal_cost = float(input())
+total_meal_cost = float(input("Please enter in the total cost of the meal: $"))
 
-print ("Please select 15%, 18%, or 20% as tip amount")
+low_tip = float(total_meal_cost * .15)
+mid_tip = float(total_meal_cost * .18)
+high_tip = float(total_meal_cost * .20)
 
-if 
+low_total_with_tip = float(total_meal_cost + low_tip)
+mid_total_with_tip = float(total_meal_cost + mid_tip)
+high_total_with_tip = float(total_meal_cost + high_tip)
 
-15%, 18%  20%. 
-
-please enter in valid tip amount
-
-tip
-
-Display total, each tip value and total with each tip value. 
-
-print Total
-
-total_with_tip = (total_meal_cost + tip)  
-
+print (float("Total: $", total_meal_cost))
+print (float("Tip: $", low_tip))
+print (float("Total with tip: $", low_total_with_tip))
