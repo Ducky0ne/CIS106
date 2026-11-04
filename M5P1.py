@@ -11,6 +11,6 @@ total = extended_price + tax
 
 print ("Quantity", quantity)
 print (f"Unit Price: {unit_price:.2f}")
-print ("Extended Price", extended_price)
-print ("Tax", tax)
-print ("Total", total)
+print ("Extended Price: $", extended_price)
+print (f"Tax: {tax:.2f}")
+print (f"Total: ${total:.2f}")
