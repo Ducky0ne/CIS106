@@ -16,5 +16,5 @@ if income_tax < 0:
 print ("Last Name: ", user_last_name)
 print (f"Gross Income: ${gross_income:.2f}")
 print ("Dependants: ", number_of_dependents)
-print (f"Adjusted Gross Income: {adjusted_gross_income:.2f}")
-print ("Income Tax: ", income_tax)
+print (f"Adjusted Gross Income: ${adjusted_gross_income:.2f}")
+print (f"Income Tax: ${income_tax:.2f}")
