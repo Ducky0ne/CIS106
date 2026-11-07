@@ -8,9 +8,7 @@ else:
     price = 30
 
 extended_price = quantity * price
-
 tax_amount = float(extended_price * .07)
-
 total = extended_price + tax_amount
 
 print ("Extended Price: $", extended_price)
