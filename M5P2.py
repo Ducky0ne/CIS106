@@ -1,7 +1,7 @@
 item = str(input("Please enter in item: "))
 quantity =  int(input("Please enter in quantity: "))
 
-if item == 'A': 
+if item == 'A' or item == 'a': 
     unit_price = 10.00 
 else: 
     unit_price = 20.00
