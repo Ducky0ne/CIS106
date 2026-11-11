@@ -1,5 +1,6 @@
 counter = 0
 sum_gross_pay = 0
+
 program = str(input("Do you want to run this program (Yes or No)? "))
 
 while program == "Yes":
@@ -21,7 +22,12 @@ while program == "Yes":
 
     print ("Employee Last Name: ", employee_last_name)
     print (f"Gross Pay: ${gross_pay:.2f}")
-    print (f"Sum of all gross pays: ${sum_gross_pay:.2f}")
-    print ("Number of employees who ran program: ", counter)
+    
     
     program = str(input("Do you want to run this program (Yes or No)?"))
+
+average_pay = (sum_gross_pay / counter)
+
+print (f"Sum of all gross pays: ${sum_gross_pay:.2f}")
+print ("Number of employees who ran program: ", counter)
+print (f"Average pay: ${average_pay:.2f}")
