@@ -1,5 +1,6 @@
 sum_of_all_discounts = 0
 
+
 program = str(input("Do you want to run this program (Yes or No)? "))
 
 while program == "Yes":
@@ -8,11 +9,18 @@ while program == "Yes":
     extended_price = quantity * price_of_item
 
     if extended_price > 10000:
-        extended_price * .25
+        discount_amount = (extended_price * .25)
     else:
-        extended_price * .10
+        discount_amount = (extended_price * .10)
 
-    sum_of_all_discounts += extended_price
-    
-    print
+    total = (extended_price - discount_amount)
 
+    print (f"Extended Price: ${extended_price:.2f}")
+    print (f"Discount amount: ${discount_amount:.2f}")
+    print (f"Total: ${total:.2f}")
+
+    sum_of_all_discounts += discount_amount
+
+    program = str(input("Do you want to run this program (Yes or No)? "))
+
+print (f"Sum of all discounts: ${sum_of_all_discounts:.2f}")
