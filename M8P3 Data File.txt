@@ -1,22 +1,22 @@
 Professor X
-$1,000,000
+1000000
 Cyclops
-$750,000
+750000
 Jean Grey
-$500,000
+500000
 Iceman
-$75,000
+75000
 Beast
-$50,000
+50000
 Archangel
-$25,000
+25000
 Wolverine
-$15,000
+15000
 Bishop
-$10,000
+10000
 Colossus
-$5,000
+5000
 Gambit
-$2,500
+2500
 Rogue
-$1,000
+1000
