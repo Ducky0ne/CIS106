@@ -1,0 +1,27 @@
+Ferrari
+15
+250000.00
+McLaren
+50
+1750000.00
+Aston Martin
+20
+350000.00
+Lamborghini
+75
+550000.00
+Pagani
+10
+1000000.00
+Koenigsegg
+25
+1500000.00
+Bugatti
+5
+2000000.00
+BMW
+100
+80000.00
+Mercedes Benz
+120
+90000.00
