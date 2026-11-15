@@ -1,4 +1,4 @@
-f = open("M8P3 Data File.txt", "r")
+f = open("M8/M8P3 Data File.txt", "r")
 sum_of_all_bonus = 0
 name = str(f.readline().rstrip('\n'))
 

@@ -1,7 +1,7 @@
 count = 0
 sum_of_extended_prices = 0
 
-f = open("M8P4 Data File.txt", "r")
+f = open("M8/M8P4 Data File.txt", "r")
 
 item = str(f.readline().rstrip('\n'))
 while item != "":

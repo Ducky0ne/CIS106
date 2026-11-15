@@ -1,7 +1,7 @@
 students = 0
 sum_of_all_tuition = 0
 
-f=open("M8P5 Data File.txt", "r")
+f=open("M8/M8P5 Data File.txt", "r")
 
 last_name = str(f.readline().rstrip('\n'))
 while last_name != "":

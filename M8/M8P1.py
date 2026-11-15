@@ -6,9 +6,8 @@ annual_interest = float(input("Please enter in annual interest as a decimal: "))
 ending_balance = (beginning_balance * annual_interest) + (beginning_balance)
 total_interest_earned += (beginning_balance * annual_interest)
 
-print ("Year", year)
-print (f"Beginning Balance {beginning_balance:.2f}")
-print (f"Ending Balance {ending_balance:.2f}")
+print (f'{"Year":10} {"Beginning Balance":25} {"Ending Balance":25}')
+print (f'{year} {beginning_balance:25.2f} {ending_balance:25.2f}')
 
 while year < 5:  
 
@@ -18,8 +17,7 @@ while year < 5:
 
     year = year +1
     
-    print ("Year", year)
-    print (f"Beginning Balance {beginning_balance:.2f}")
-    print (f"Ending Balance {ending_balance:.2f}")
+    print (f'{"Year":10} {"Beginning Balance":25} {"Ending Balance":25}')
+    print (f'{year} {beginning_balance:25.2f} {ending_balance:25.2f}')
 
 print (f"Total Interest Earned: ${total_interest_earned:.2f}")
