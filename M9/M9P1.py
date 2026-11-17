@@ -21,12 +21,11 @@ while run_program == 'Yes':
         print ("Quantity:", quantity)
         print (f"Price: ${unit_price:.2f}")
         print (f"Total: ${total:.2f}" )
-        return (total)
-        
+        return (total)    
+    
     total = main()
-
+    
     total_extended_price += total
-
     run_program = str(input("Do you want to run this program (Yes / No): "))
 
 print (f"Total Extended Price: ${total_extended_price:.2f}")
