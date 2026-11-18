@@ -33,7 +33,7 @@ while run_program == 'Yes':
         print ("Last Name:", last_name)
         print ("Gross Pay: $", pay_rate)
         return (pay_rate)
-    rate_of_pay = main ()
+    pay_rate = main ()
 
-    total_gross_pay += rate_of_pay
+    total_gross_pay += pay_rate
     run_program = str(input("Do you want to run this program (Yes / No): "))

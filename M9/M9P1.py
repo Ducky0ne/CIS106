@@ -22,7 +22,6 @@ while run_program == 'Yes':
         print (f"Price: ${unit_price:.2f}")
         print (f"Total: ${total:.2f}" )
         return (total)    
-    
     total = main()
     
     total_extended_price += total
