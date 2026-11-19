@@ -31,9 +31,10 @@ while run_program == 'Yes':
         (last_name, job_code, hours_worked) = get_input ()
         (pay_rate) = rate_of_pay (job_code, hours_worked)
         print ("Last Name:", last_name)
-        print ("Gross Pay: $", pay_rate)
+        print (f"Gross Pay: ${pay_rate:.2f}")
         return (pay_rate)
     pay_rate = main ()
 
     total_gross_pay += pay_rate
     run_program = str(input("Do you want to run this program (Yes / No): "))
+    print (f"Total Gross Pay: ${total_gross_pay:.2f}")
