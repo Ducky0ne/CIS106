@@ -17,11 +17,12 @@ while run_program == 'Yes':
 
     def main ():
         (last_name, credit_hours, district_code) = get_input ()
-        (tuition_owed) = tuition_calculation
+        (tuition_owed) = tuition_calculation (credit_hours,district_code)
         print ("Student Name: ", last_name)
         print ("Tuition Owed: ", tuition_owed)
         return (tuition_owed)
-        tuition_owed = main ()
+    tuition_owed = main ()
 
-all_tuition_owed += tuition_owed
-run_program = str(input("Do you want to run this program (Yes / No): "))
+    all_tuition_owed += tuition_owed
+    run_program = str(input("Do you want to run this program (Yes / No): "))
+    print (f"Total tuition owed: ${all_tuition_owed:.2f}" )
