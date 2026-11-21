@@ -24,9 +24,9 @@ while run_program == 'Yes':
     def main ():
         (county, market_value) = get_input ()
         (assessed_value) = value (county, market_value)
-        return (assessed_value)
         print (f"Your homes assessed value is ${assessed_value:.2f}")
-    assessed_value = main ()
+        return (market_value, assessed_value)
+    (market_value, assessed_value) = main ()
 
     sum_of_all_market_values += market_value
     sum_of_all_assessed_values += assessed_value
